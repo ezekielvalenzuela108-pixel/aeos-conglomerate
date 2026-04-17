@@ -1,3 +1,1 @@
-google-generativeai
-streamlit-mic-recorder
-requests
+google-generativeai==0.3.1
