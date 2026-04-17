@@ -16,7 +16,7 @@ Directive: Simplify the complex. Execute with elite precision. Be witty and loya
 # Brain Initialization (Neural Link)
 if "GEMINI_API_KEY" in st.secrets:
     genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
 else:
     st.error("Neural Link Offline. Master Control, anchor the API Key in Secrets.")
 
